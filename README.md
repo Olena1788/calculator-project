@@ -1,5 +1,5 @@
 # Calculator Application 
-<img src="readme-images/screenshots/am-i-responsive.png" width="100%">
+![Responsive Mockup](assets/images/amiresponsive.png)
 <br/>
 
 [View the live site here](https://olena1788.github.io/calculator-project/)
@@ -70,7 +70,10 @@ Basic calculator design was utilised to create the application
 <br />
 
 ## Wireframes
+![Index Wireframe](assets/images/wireframe.png) 
+
 [Balsamiq](https://balsamiq.cloud/) has been used to develop wireframes to demonstrate the basic design of the site.
+
 <br />
 <br />
 
