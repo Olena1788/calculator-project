@@ -110,3 +110,41 @@ In particular:
 <br />
 <br />
 
+# Technologies
+Languages used in this site are [HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3) and [JavaScript](https://en.wikipedia.org/wiki/JavaScript).
+
+Additional technologies include: 
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+   - Debugging and testing responsiveness during development
+- [JSHint](https://jshint.com/)
+    - Code checking and debugging
+- [GitHub](https://github.com/)
+  - Site repository
+- [Gitpod](https://gitpod.io/)
+  - Online IDE for all coding work and site file management, terminal was used to add, commit, and push to Github
+<br />
+<br />
+
+# Testing
+## Manual Testing 
+
+**User and Design Expectation**
+- The buttons are clearly designed for their purpose.
+<br/>
+
+**Testing** 
+ - The buttons act as intended. On click the number or the calculated result appears on the screen. 
+ <br/>
+
+### Responsiveness
+**User and Design Expectation**
+- To be able to use the calculator on any device and screen size
+- For the site to maintain is structural design in different screen sizes
+<br/>
+
+**Testing**
+-  Chrome Dev Tools was the primary tool for testing responsiveness throughout development
+- Responsiveness was additionally tested in Safari, Firefox, and Edge browers, and using [Am I Responsive](https://ui.dev/amiresponsive) and the [Responsive Design Checker](https://www.responsivedesignchecker.com/)
+
+<br/>
+
