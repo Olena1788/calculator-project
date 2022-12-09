@@ -76,6 +76,7 @@ Basic calculator design was utilised to create the application
 
 <br />
 <br />
+
 ## Features
 
 ![The main screen.](assets/images/features.png)
@@ -83,7 +84,7 @@ Basic calculator design was utilised to create the application
 
 <br />
 
-- The main screen of a basic calculator that can do only addition, subtraction, multiplication and division calculations. Addition, subtraction, multiplication, division, clear and equals buttons differ in colour to the numbers buttons.
+The main screen of a basic calculator that can do only addition, subtraction, multiplication and division calculations. Addition, subtraction, multiplication, division, clear and equals buttons differ in colour to the numbers buttons.
 
 <br />
 <br />
