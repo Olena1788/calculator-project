@@ -58,6 +58,8 @@ function cancel(){
     operation = false;
     display(0);
 }
+
+// executes instruction "num1 operation num2" and displays result
 function equal(){
     if(Number.isInteger(num1) && Number.isInteger(num2) && operation){
         let res = 0;
