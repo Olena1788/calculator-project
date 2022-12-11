@@ -139,12 +139,18 @@ Additional technologies include:
 ### Responsiveness
 **User and Design Expectation**
 - To be able to use the calculator on any device and screen size
-- For the site to maintain is structural design in different screen sizes
+- For the site to maintain its structural design in different screen sizes
 <br/>
 
 **Testing**
 -  Chrome Dev Tools was the primary tool for testing responsiveness throughout development
 - Responsiveness was additionally tested in Safari, Firefox, and Edge browers, and using [Am I Responsive](https://ui.dev/amiresponsive) and the [Responsive Design Checker](https://www.responsivedesignchecker.com/)
 
+<br/>
+
+## Code Validation
+This site has been passed through the following code validation sites with no errors or warnings:
+- [W3C HTML Validator Results](assets/images/html-checker-report.png)
+- [W3C HTML Validator Results](assets/images/html-checker-report1.png)
 <br/>
 
