@@ -3,6 +3,8 @@ let num1;
 let num2;
 let operation = false;
 
+//initialise variables and attch event handlers
+
 function init(){
 
     num1 = num2 = 0;
@@ -26,5 +28,32 @@ function init(){
     document.getElementById("btn-8").addEventListener('click', function(){displayDigit(8);}, false);
     document.getElementById("btn-9").addEventListener('click', function(){displayDigit(9);}, false);
 
+    display(0);
+}
+
+
+function add(){
+    operation = '+';
+}
+
+
+function substract(){
+    operation = '-';
+}
+
+
+function multiply(){
+    operation = '*';
+}
+
+
+function divide(){
+    operation = '/';
+}
+
+
+function cancel(){
+    num1 = num2 = 0;
+    operation = false;
     display(0);
 }
