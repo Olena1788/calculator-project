@@ -32,28 +32,52 @@ function init(){
 }
 
 
+// sets operation to "add"
 function add(){
     operation = '+';
 }
 
-
+// sets operation to "substract"
 function substract(){
     operation = '-';
 }
 
-
+// sets operation to "multiply"
 function multiply(){
     operation = '*';
 }
 
-
+// sets operation to "divide"
 function divide(){
     operation = '/';
 }
 
-
+// reset variables and display 0
 function cancel(){
     num1 = num2 = 0;
     operation = false;
     display(0);
+}
+function equal(){
+    if(Number.isInteger(num1) && Number.isInteger(num2) && operation){
+        let res = 0;
+        switch (operation) {
+            case '+':
+                res = num1 + num2;
+            break;
+            case '-':
+                res = num1 - num2;
+            break;
+            case '*':
+                res = num1 * num2;
+            break;
+            case '/':
+                res = num1 / num2;
+            break;
+        }
+
+        display(res);
+    }else{
+        alert("Something went wrong!");
+    }
 }
