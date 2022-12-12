@@ -34,3 +34,17 @@ body {background: #555}
 #calc > div > button:hover {
     background: #DDD;
 }
+
+#display {
+    grid-column: 1 / 5;
+}
+
+#display > input {
+    font-size: 24px;
+    direction: rtl;
+    width: 100%;
+}
+
+.rowspan2 {
+    grid-row: span 2;
+}
