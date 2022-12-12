@@ -7,3 +7,13 @@ body {background: #555}
 #container {
     height: 100%;
 }
+
+#calc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: min-content repeat(4, minmax(min-content, 60px));
+    grid-gap: 5px;
+    margin: auto;   /*center element*/
+    max-width: 600px;
+    height: 100%;
+}
