@@ -83,3 +83,20 @@ function equal(){
         alert("Something went wrong!");
     }
 }
+
+// updates num variable and displays result
+function displayDigit(digit){
+    digit = parseInt(digit);
+    if(! operation){
+        num1 = num1 * 10 + digit;
+        display(num1);
+    }else{
+        num2 = num2 * 10 + digit;
+        display(num2);
+    }
+}
+
+// displays parameter val
+function display(val){
+    document.getElementById("display").querySelector("input:first-child").value = val;
+}
