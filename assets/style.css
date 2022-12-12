@@ -48,3 +48,9 @@ body {background: #555}
 .rowspan2 {
     grid-row: span 2;
 }
+
+#btn-eq, #btn-c, #btn-add, #btn-sub, #btn-mul, #btn-div {
+    color: orange;
+    font-weight: bold;
+    font-size: 24px;
+}
