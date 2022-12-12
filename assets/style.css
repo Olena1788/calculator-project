@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box; /*include padding and border in the element's total width and height*/
+}
+html, body {height: 100%}
+body {background: #555}
+
+#container {
+    height: 100%;
+}
