@@ -150,7 +150,6 @@ Additional technologies include:
 
 ## Code Validation
 This site has been passed through the following code validation sites with no errors or warnings:
-- [W3C HTML Validator Results](assets/images/html-checker-report.png)
-- [W3C HTML Validator Results](assets/images/html-checker-report1.png)
+- [W3C HTML Validator Results](assets/images/html-report.png)
 <br/>
 
