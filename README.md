@@ -41,12 +41,10 @@ This application is for educational purposes.
 
 ## Aims
 - To create application with HTML structure, CSS styling, and JavaScript interactivity
-- To utilise functional and simple design concepts for an easy-to-navigate UX
 - To create responsive design for accessibility on all devices
 - To use application for quick and easy calculations
 <br />
 <br />
-
 # User Experience
 ## User Stories
 ### As a first time visitor, I want to:
@@ -59,7 +57,6 @@ This application is for educational purposes.
 - have an indication of the operations’ history
 - be able to save a calculation with a name and view or edit it later
 - be able to change it to dark mode 
-<br />
 <br />
 <br />
 
@@ -81,7 +78,6 @@ Basic calculator design was utilised to create the application
 
 ![The main screen.](assets/images/features.png)
 
-
 <br />
 
 The main screen of a basic calculator that can do only addition, subtraction, multiplication and division calculations. Addition, subtraction, multiplication, division, clear and equals buttons differ in colour to the numbers buttons.
@@ -95,7 +91,7 @@ The main screen of a basic calculator that can do only addition, subtraction, mu
 ![Buttons](assets/images/buttons.png)
 <br />
 
-All the buttons are clickable and hoverable.
+All the buttons are clickable and hoverable. The buttons act as intended. On click the number or the calculated result appears on the screen. No mistakes have been found in calculated results of numerous calculations when adding, subtracting, multiplying or dividing.
 <br />
 <br />
 
@@ -105,7 +101,7 @@ In particular:
 - addition of a scientific functionality to the application
 - operations’ history to be displayed
 - possibility to save a calculation with a name and view or edit it later
-- possibility to use dark mode or night light (use warmer colours to help blocj blue light) 
+- possibility to use dark mode or night light
 - addition of unit conversion
 <br />
 <br />
@@ -122,6 +118,7 @@ Additional technologies include:
   - Site repository
 - [Gitpod](https://gitpod.io/)
   - Online IDE for all coding work and site file management, terminal was used to add, commit, and push to Github
+- [Responsive Design Checker](https://www.responsivedesignchecker.com/)
 <br />
 <br />
 
