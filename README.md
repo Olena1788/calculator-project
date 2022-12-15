@@ -143,7 +143,7 @@ Additional technologies include:
 <br/>
 
 **Testing**
--  Chrome Dev Tools was the primary tool for testing responsiveness throughout development
+- Chrome Dev Tools was the primary tool for testing responsiveness throughout development
 - Responsiveness was additionally tested in Safari, Firefox, and Edge browers, and using [Am I Responsive](https://ui.dev/amiresponsive) and the [Responsive Design Checker](https://www.responsivedesignchecker.com/)
 
 <br/>
@@ -152,4 +152,24 @@ Additional technologies include:
 This site has been passed through the following code validation sites with no errors or warnings:
 - [W3C HTML Validator Results](assets/images/html-report.png)
 <br/>
+
+- [W3C CSS Validator Results](assets/images/css-report.png)
+<br/>
+
+- [JSHint Java Script Code Quality Tool https://jshint.com/](assets/images/jshint-report.png)
+
+<br/>
+
+## Lighthouse Score
+[Google Dev Tools Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) tool was used to check site performance.
+<br/>
+
+<img src="readme-images/screenshots/lighthouse.png" width="50%">
+<br />
+<br />
+
+## Tools
+[Google Dev Tools](https://developer.chrome.com/docs/devtools/) was used during the development process to test site responsiveness, design, and functionality.
+<br />
+<br />
 
