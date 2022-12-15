@@ -1,11 +1,10 @@
-
 let num1;
 let num2;
 let operation = false;
 
 //initialise variables and attch event handlers
 
-function init(){
+function init() {
 
     num1 = num2 = 0;
 
@@ -17,86 +16,106 @@ function init(){
     document.getElementById("btn-c").addEventListener('click', cancel, false);
     document.getElementById("btn-eq").addEventListener('click', equal, false);
 
-    document.getElementById("btn-0").addEventListener('click', function(){displayDigit(0);}, false);
-    document.getElementById("btn-1").addEventListener('click', function(){displayDigit(1);}, false);
-    document.getElementById("btn-2").addEventListener('click', function(){displayDigit(2);}, false);
-    document.getElementById("btn-3").addEventListener('click', function(){displayDigit(3);}, false);
-    document.getElementById("btn-4").addEventListener('click', function(){displayDigit(4);}, false);
-    document.getElementById("btn-5").addEventListener('click', function(){displayDigit(5);}, false);
-    document.getElementById("btn-6").addEventListener('click', function(){displayDigit(6);}, false);
-    document.getElementById("btn-7").addEventListener('click', function(){displayDigit(7);}, false);
-    document.getElementById("btn-8").addEventListener('click', function(){displayDigit(8);}, false);
-    document.getElementById("btn-9").addEventListener('click', function(){displayDigit(9);}, false);
+    document.getElementById("btn-0").addEventListener('click', function () {
+        displayDigit(0);
+    }, false);
+    document.getElementById("btn-1").addEventListener('click', function () {
+        displayDigit(1);
+    }, false);
+    document.getElementById("btn-2").addEventListener('click', function () {
+        displayDigit(2);
+    }, false);
+    document.getElementById("btn-3").addEventListener('click', function () {
+        displayDigit(3);
+    }, false);
+    document.getElementById("btn-4").addEventListener('click', function () {
+        displayDigit(4);
+    }, false);
+    document.getElementById("btn-5").addEventListener('click', function () {
+        displayDigit(5);
+    }, false);
+    document.getElementById("btn-6").addEventListener('click', function () {
+        displayDigit(6);
+    }, false);
+    document.getElementById("btn-7").addEventListener('click', function () {
+        displayDigit(7);
+    }, false);
+    document.getElementById("btn-8").addEventListener('click', function () {
+        displayDigit(8);
+    }, false);
+    document.getElementById("btn-9").addEventListener('click', function () {
+        displayDigit(9);
+    }, false);
 
     display(0);
 }
 
 
 // sets operation to "add"
-function add(){
+function add() {
     operation = '+';
 }
 
 // sets operation to "substract"
-function substract(){
+function substract() {
     operation = '-';
 }
 
 // sets operation to "multiply"
-function multiply(){
+function multiply() {
     operation = '*';
 }
 
 // sets operation to "divide"
-function divide(){
+function divide() {
     operation = '/';
 }
 
 // reset variables and display 0
-function cancel(){
+function cancel() {
     num1 = num2 = 0;
     operation = false;
     display(0);
 }
 
 // executes instruction "num1 operation num2" and displays result
-function equal(){
-    if(Number.isInteger(num1) && Number.isInteger(num2) && operation){
+function equal() {
+    if (Number.isInteger(num1) && Number.isInteger(num2) && operation) {
         let res = 0;
         switch (operation) {
             case '+':
                 res = num1 + num2;
-            break;
+                break;
             case '-':
                 res = num1 - num2;
-            break;
+                break;
             case '*':
                 res = num1 * num2;
-            break;
+                break;
             case '/':
                 res = num1 / num2;
-            break;
+                break;
         }
 
         display(res);
-    }else{
+    } else {
         alert("Something went wrong!");
     }
 }
 
 // updates num variable and displays result
-function displayDigit(digit){
+function displayDigit(digit) {
     digit = parseInt(digit);
-    if(! operation){
+    if (!operation) {
         num1 = num1 * 10 + digit;
         display(num1);
-    }else{
+    } else {
         num2 = num2 * 10 + digit;
         display(num2);
     }
 }
 
 // displays parameter val
-function display(val){
+function display(val) {
     document.getElementById("display").querySelector("input:first-child").value = val;
 }
