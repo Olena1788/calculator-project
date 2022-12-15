@@ -11,8 +11,7 @@ body {background: #555}
 #calc {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: min-content repeat(4, minmax(min-content, 60px));
-    grid-gap: 5px;
+    grid-template-rows: repeat(5, 20%);
     margin: auto;   /*center element*/
     max-width: 600px;
     height: 100%;
@@ -40,8 +39,9 @@ body {background: #555}
 }
 
 #display > input {
-    font-size: 24px;
+    font-size: 36px;
     direction: rtl;
+    height: 100%;
     width: 100%;
 }
 
