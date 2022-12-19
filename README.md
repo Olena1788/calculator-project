@@ -11,7 +11,7 @@
     i. [Aims](#aims)
 2. [User Experience](#user-experience-ux)
     1. [User Stories](#user-stories)
-3. [Main Features](#main-features)
+3. [Features](#main-features)
     1. [Wireframes](#wireframes)
     2. [User Interactivity](#user-interactivity)
     3. [Future Developments](#future-developments)
@@ -37,7 +37,7 @@
  The application provides a standard calculator functionality and was created to utilise the language of JavaScript. 
 <br>
 <br>
-This application is for educational purposes.
+The application is for educational purposes.
 
 ## Aims
 - To create application with HTML structure, CSS styling, and JavaScript interactivity
@@ -60,7 +60,7 @@ This application is for educational purposes.
 <br />
 <br />
 
-# Main Features
+# Features
 ## Design
 Basic calculator design was utilised to create the application
 <br />
@@ -76,7 +76,7 @@ Basic calculator design was utilised to create the application
 
 ## Features
 
-![The main screen.](assets/images/features.png)
+![The screen.](assets/images/features.png)
 
 <br />
 
@@ -101,7 +101,7 @@ In particular:
 - addition of a scientific functionality to the application
 - operations’ history to be displayed
 - possibility to save a calculation with a name and view or edit it later
-- possibility to use dark mode or night light
+- possibility to use dark mode
 - addition of unit conversion
 <br />
 <br />
@@ -109,7 +109,7 @@ In particular:
 # Technologies
 Languages used in this site are [HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3) and [JavaScript](https://en.wikipedia.org/wiki/JavaScript).
 
-Additional technologies include: 
+Other technologies include: 
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
    - Debugging and testing responsiveness during development
 - [JSHint](https://jshint.com/)
@@ -119,6 +119,7 @@ Additional technologies include:
 - [Gitpod](https://gitpod.io/)
   - Online IDE for all coding work and site file management, terminal was used to add, commit, and push to Github
 - [Responsive Design Checker](https://www.responsivedesignchecker.com/)
+- [live.Browserstack](https://live.browserstack.com/)
 <br />
 <br />
 
@@ -140,8 +141,8 @@ Additional technologies include:
 <br/>
 
 **Testing**
-- Chrome Dev Tools was the primary tool for testing responsiveness throughout development
-- Responsiveness was additionally tested in Safari, Firefox, and Edge browers, and using [Am I Responsive](https://ui.dev/amiresponsive) and the [Responsive Design Checker](https://www.responsivedesignchecker.com/)
+- Chrome Dev Tools was the primary tool for testing responsiveness throughout the development
+- Responsiveness was additionally tested in Safari, Firefox, and Edge browers, and using [Am I Responsive](https://ui.dev/amiresponsive), the [Responsive Design Checker](https://www.responsivedesignchecker.com/) and [live.Browserstack](https://live.browserstack.com/)
 
 <br/>
 
@@ -161,12 +162,16 @@ This site has been passed through the following code validation sites with no er
 [Google Dev Tools Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) tool was used to check site performance.
 <br/>
 
-<img src="readme-images/screenshots/lighthouse.png" width="50%">
-<br />
-<br />
 
 ## Tools
 [Google Dev Tools](https://developer.chrome.com/docs/devtools/) was used during the development process to test site responsiveness, design, and functionality.
 <br />
 <br />
 
+## Browser Compatibility
+Device | Outcome | Pass/Fail
+--- | --- | ---
+[Google Chrome](https://www.google.com/intl/en_uk/chrome/) | No appearance, responsiveness nor functionality issues. | Pass
+[Firefox](https://www.mozilla.org/en-GB/firefox/)| No appearance, responsiveness nor functionality issues. | Pass
+[Safari](https://safari.en.softonic.com/mac)| No appearance, responsiveness nor functionality issues. | Pass
+[Edge](https://www.microsoft.com/en-us/edge)| No appearance, responsiveness nor functionality issues. | Pass
