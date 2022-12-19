@@ -175,3 +175,42 @@ Device | Outcome | Pass/Fail
 [Firefox](https://www.mozilla.org/en-GB/firefox/)| No appearance, responsiveness nor functionality issues. | Pass
 [Safari](https://safari.en.softonic.com/mac)| No appearance, responsiveness nor functionality issues. | Pass
 [Edge](https://www.microsoft.com/en-us/edge)| No appearance, responsiveness nor functionality issues. | Pass
+
+## GitHub
+This project was deloyed to GitHub Pages with the following steps:
+1. Log in to GitHub (create an account if necessary)
+2. Locate the [GitHub Respository](https://olena1788.github.io/calculator-project/)
+3. On the repository page, find the 'Settings' icon anc click on it
+4. In the Settings page, look for and click the 'Pages' menu item on the left hand side
+5. In the 'Pages' page, under 'Source', select 'Branch:main', then '/root' and click save
+
+<br />
+<br />
+
+## Forking
+The fork this repository:
+1. Log it to GitHub
+2. Locate the [GitHub Respository](https://olena1788.github.io/calculator-project/)
+3. On the repository page, find the 'Fork' menu in the top right, click on the small down arrow
+4. Select '+ Create a new fork'
+5. Remane repository as required
+6. Click 'Create Fork'
+
+<br />
+<br />
+
+## Cloning
+To clone the repository:
+1. Log in to GitHub
+2. Locate the [GitHub Respository](https://olena1788.github.io/calculator-project/)
+3. On the repository page, find and click on the 'Code' menu in the mid-top right of the page
+4. Choose to either download or open in GitHub Desktop
+  or
+    5. Choose the HTTPS option and copy the URL to your clipboard
+    6. - To clone the repository using HTTPS, under "HTTPS", copy the url
+       - To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then copy the url
+       - To clone a repository using GitHub CLI, click GitHub CLI, then copy url
+    7. Open Terminal and change the current directory to where you want the cloned directory
+    8. Type git clone, and paste the url, press Enter to create your local clone
+<br />
+<br />
