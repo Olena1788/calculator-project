@@ -27,9 +27,8 @@
     1. [GitHub](#github)
     2. [Forking](#forking)
     3. [Cloning](#cloning)
-7. [References & Acknowledgements](#references--acknowledgements)
-   1.. [References](#references)
-   2.. [Acknoledgements](#acknoledgements)
+7. [Acknowledgements](acknowledgements)
+  
 <br />
 <br />
 
@@ -160,6 +159,10 @@ This site has been passed through the following code validation sites with no er
 
 ## Lighthouse Score
 [Google Dev Tools Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) tool was used to check site performance.
+
+[Lighthouse desctop report](assets/images/lighthouse-desktop-report.png)
+
+[Lighthouse mobile report](assets/images/lighthouse-mobile-report.png)
 <br/>
 
 
@@ -176,10 +179,25 @@ Device | Outcome | Pass/Fail
 [Safari](https://safari.en.softonic.com/mac)| No appearance, responsiveness nor functionality issues. | Pass
 [Edge](https://www.microsoft.com/en-us/edge)| No appearance, responsiveness nor functionality issues. | Pass
 
+## Device Compatibility
+Device | Outcome | Pass/Fail
+--- | --- | ---
+Samsung Galaxy 21 | No appearance, responsiveness nor functionality issues | Pass
+iMac 21.5"| No appearance, responsiveness nor functionality issues | Pass
+iPad Pro 10.5" | No appearance, responsiveness nor functionality issues | Pass
+iPhone 11 | No appearance, responsiveness nor functionality issues | Pass
+</br>
+</br>
+
+# Deployment
+The live site can be accessed [here](https://olena1788.github.io/calculator-project/)
+<br />
+<br />
+
 ## GitHub
 This project was deloyed to GitHub Pages with the following steps:
 1. Log in to GitHub (create an account if necessary)
-2. Locate the [GitHub Respository](https://olena1788.github.io/calculator-project/)
+2. Locate the [GitHub Respository](https://github.com/Olena1788/calculator-project)
 3. On the repository page, find the 'Settings' icon anc click on it
 4. In the Settings page, look for and click the 'Pages' menu item on the left hand side
 5. In the 'Pages' page, under 'Source', select 'Branch:main', then '/root' and click save
@@ -190,7 +208,7 @@ This project was deloyed to GitHub Pages with the following steps:
 ## Forking
 The fork this repository:
 1. Log it to GitHub
-2. Locate the [GitHub Respository](https://olena1788.github.io/calculator-project/)
+2. Locate the [GitHub Respository](https://github.com/Olena1788/calculator-project)
 3. On the repository page, find the 'Fork' menu in the top right, click on the small down arrow
 4. Select '+ Create a new fork'
 5. Remane repository as required
@@ -202,7 +220,7 @@ The fork this repository:
 ## Cloning
 To clone the repository:
 1. Log in to GitHub
-2. Locate the [GitHub Respository](https://olena1788.github.io/calculator-project/)
+2. Locate the [GitHub Respository](https://github.com/Olena1788/calculator-project)
 3. On the repository page, find and click on the 'Code' menu in the mid-top right of the page
 4. Choose to either download or open in GitHub Desktop
   or
@@ -214,3 +232,6 @@ To clone the repository:
     8. Type git clone, and paste the url, press Enter to create your local clone
 <br />
 <br />
+
+## Acknoledgements
+Gratitude goes to the tutors at Code Institute and slack community for their guidance and assistance with my learning and developing JavaScript skills.
