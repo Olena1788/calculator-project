@@ -7,8 +7,7 @@
 <br/>
 
 # Table of Contents
-1. [Introduction](#introduction)
-    i. [Aims](#aims)
+1. [Introduction](#introduction) and [Aims](#aims)
 2. [User Experience](#user-experience-ux)
     1. [User Stories](#user-stories)
 3. [Features](#main-features)
@@ -33,13 +32,13 @@
 <br />
 
 # Introduction & Aims
- The application provides a standard calculator functionality and was created to utilise the language of JavaScript. 
+ The application provides a basic calculator functionality for doing only addition, subtraction, multiplication and division calculations  and was created to utilise the language of JavaScript. 
 <br>
 <br>
 The application is for educational purposes.
 
 ## Aims
-- To create application with HTML structure, CSS styling, and JavaScript interactivity
+- To create application with HTML structure, basic CSS styling and JavaScript interactivity
 - To create responsive design for accessibility on all devices
 - To use application for quick and easy calculations
 <br />
