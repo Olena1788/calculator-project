@@ -43,8 +43,11 @@ The application is for educational purposes.
 - To use application for quick and easy calculations
 <br />
 <br />
+
 # User Experience
+
 ## User Stories
+
 ### As a first time visitor, I want to:
 -  be able to easily make mathematical calculations
 -  delete a mistyped digit easily
