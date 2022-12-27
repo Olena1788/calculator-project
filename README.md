@@ -132,7 +132,7 @@ Other technologies include:
 <br/>
 
 **Testing** 
- - The buttons act as intended. On click the number or the calculated result appears on the screen. 
+ - The buttons act as intended. On click the number or the calculated result appears on the screen. All the buttons are clickable and hoverable. No mistakes have been found in calculated results of numerous calculations when adding, subtracting, multiplying or dividing.
  <br/>
 
 ### Responsiveness
