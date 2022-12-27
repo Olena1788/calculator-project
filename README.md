@@ -233,4 +233,4 @@ To clone the repository:
 <br />
 
 ## Acknoledgements
-Gratitude goes to the tutors at Code Institute and slack community for their guidance and assistance with my learning and developing JavaScript skills.
+Gratitude goes to the tutors at Code Institute and slack community for their guidance and assistance with my learning and developing JavaScript skills. I did not have a mentor because I had to prolong my leave of absence a few times.
